@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Run</string>
+    <string name="main_title">Android Run!</string>
+    <string name="new_label">New game</string>
+    <string name="exit_label">Exit</string>
+    <string name="game_title">Game</string>
+    <string name="sound_title">Sound</string>
+
+</resources>
