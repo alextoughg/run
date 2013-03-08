@@ -31,7 +31,7 @@ public class GameBeta extends Activity implements SimpleGestureListener {
 	 * before the level is failed */
 	private final int STUMBLES_MAX = 3;
 	/** For playing sounds */
-	Sound sound = new Sound(this);
+	Sound sound = new Sound(this, 0);
 	
 	/** Called when the activity is first created. */
 	@Override

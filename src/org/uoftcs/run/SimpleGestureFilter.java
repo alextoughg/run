@@ -105,8 +105,8 @@ public class SimpleGestureFilter extends SimpleOnGestureListener{
 		final float xDistance = Math.abs(e1.getX() - e2.getX());
 		final float yDistance = Math.abs(e1.getY() - e2.getY());
 
-		if(xDistance > this.swipe_Max_Distance || yDistance > this.swipe_Max_Distance)
-			return false;
+		if(xDistance > this.swipe_Max_Distance || yDistance > this.swipe_Max_Distance){;}
+			//return false;
 
 		velocityX = Math.abs(velocityX);
 		velocityY = Math.abs(velocityY);
@@ -159,7 +159,6 @@ public class SimpleGestureFilter extends SimpleOnGestureListener{
 
 		return false;
 	}
-
 
 	static interface SimpleGestureListener{
 		void onSwipe(int direction);
